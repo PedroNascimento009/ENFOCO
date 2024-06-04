@@ -157,3 +157,21 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* Footer */
+.navbar-footer > ul > li > span {
+  color: #FFFFFF;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-footer > ul > li > a {
+  color: #FFFFFF;
+
+  font-size: 16px;
+}
+
+.copyright > span {
+  color: #FFFFFF;
+}
