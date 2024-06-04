@@ -1,0 +1,159 @@
+@font-face {
+  font-family: Poppins;
+  src: url(/components/font/Poppins-Regular.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/components/font/Poppins-Bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family: Poppins;
+}
+
+/* Header */
+.navbar-categories > ul > li > a {
+  color: #2e2e2e;
+}
+
+.article-header > article > span {
+  font-size: 16px;
+}
+
+/* Main */
+
+.categories > a {
+  color: #101010;
+  font-size: 14px;
+}
+
+.categories > div > span {
+  color: #139933;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #101010;
+  font-size: 44px;
+}
+
+p {
+  color: #2e2e2e;
+  font-size: 22px;
+}
+
+.upload {
+  font-size: 16px;
+}
+
+.form > span {
+  color: #139933;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form > form > button {
+  color: #ffffff;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.quote > blockquote {
+  color: #ffffff;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.quote > cite {
+  color: #ffffff;
+
+  font-size: 16px;
+  font-style: normal;
+}
+
+.container > p {
+  color: #ffffff;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Tags */
+.categories2 a {
+  color: #101010;
+
+  font-size: 14px;
+}
+
+.container-follow > p {
+  color: #ffffff;
+
+  font-size: 24px;
+}
+
+.container-follow > p > a {
+  color: #ffffff;
+
+  font-weight: bold;
+}
+
+.pb-article > span {
+  color: #4F4F4F;
+
+  font-size: 14px;
+}
+
+.pb-article > div > a > h4 {
+  color: #2E2E2E;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.related > span {
+  color: #101010;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.related > span > a {
+  color: #139933;
+}
+
+.related-article > div > a:first-child {
+  color: #139933;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-article > div > a:last-child > h4 {
+  color: #101010;
+
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Aside */
+.lastest-news > span {
+  color: #2E2E2E;
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.lastest-news > article > a > h3 {
+  color: #2E2E2E;
+
+  font-size: 16px;
+  font-weight: 500;
+}

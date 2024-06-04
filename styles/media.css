@@ -1,0 +1,55 @@
+@media (max-width: 1255px) {
+  main {
+    max-width: 100%;
+
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .icons-left {
+    display: none;
+  }
+
+  .icons-fixed > ul:last-child {
+    display: flex;
+  }
+}
+@media (max-width: 862px) {
+  .aside1 {
+    display: none;
+  }
+}
+
+@media (max-width: 590px) {
+  .navbar-top {
+    grid-template-areas:
+      "logo logo burguer"
+      "search search search";
+  }
+
+  .nav-top-logo {
+    justify-self: start;
+
+    grid-area: logo;
+  }
+
+  .nav-top-btn-buguer {
+    justify-self: end;
+
+    grid-area: burguer;
+  }
+
+  .nav-top-search {
+    grid-area: search;
+
+    width: 100%;
+    height: 63px;
+
+    align-self: center;
+  }
+
+  .nav-top-search > form > input {
+    width: 100%;
+  }
+}

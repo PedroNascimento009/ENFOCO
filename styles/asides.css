@@ -1,0 +1,45 @@
+.aside1 {
+  grid-area: aside;
+
+  display: flex;
+  justify-content: end;
+  max-width: 300px;
+  margin-left: 10px;
+}
+
+.aside-right {
+  margin-top: 68px;
+}
+
+.ads > figure {
+  display: flex;
+  flex-direction: column;
+
+  gap: 34px;
+}
+
+.ads > figure > a:last-child {
+  margin-bottom: 34px;
+}
+
+.ads > figure {
+  display: flex;
+  justify-content: stretch;
+}
+
+.lastest-news > article {
+  max-width: 300px;
+}
+
+.lastest-news > article > a {
+  display: flex;
+  align-items: center;
+
+  margin: 20px 0px;
+
+  text-decoration: none;
+}
+
+.lastest-news > article > a > h3 {
+  margin-left: 16px;
+}

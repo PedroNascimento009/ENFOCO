@@ -1,0 +1,65 @@
+/* Header */
+
+.nav1-logo > img {
+  width: 256px;
+  height: 58px;
+}
+
+/* Main */
+
+.icons1 > ul > li > img {
+  width: 40px;
+  height: 40px;
+}
+
+.ads2 > img {
+  width: 100%;
+  height: auto;
+}
+
+.ads3 > img {
+  width: 100%;
+  height: auto;
+}
+
+.icons-fixed > ul:first-child > li > a > img {
+  width: 12.24px;
+  height: 13.77px;
+}
+
+.categories2 > img {
+  width: 67,75px;
+}
+
+/* Article-Main */
+
+.half-marathon > img {
+  width: 100%;
+  height: auto;
+}
+
+.quote > img {
+  width: 30px;
+  height: 24px;
+}
+/* Aside1 */
+
+.ads > figure > a > img:first-child {
+  width: 100%;
+  height: auto;
+}
+
+.ads > figure > a > img:last-child {
+  width: 100%;
+  height: auto;
+}
+
+.lastest-news > article > img {
+  width: 106px;
+  height: 101px;
+}
+
+.iframe-ytb > iframe {
+  width: 100%;
+  height: clamp(13rem, 45vw, 30rem);
+}
