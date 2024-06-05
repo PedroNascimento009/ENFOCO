@@ -84,7 +84,7 @@ body ul {
   max-width: 100%;
 
   padding: 10px 0px;
-
+  background-color: #ffff;
   border-top: 1px solid #DDDDDD;
   border-bottom: 1px solid #DDDDDD;
 }
@@ -131,7 +131,7 @@ body ul {
   position: relative;
 }
 
-.bg-size {
+.layout-section {
   max-width: 1200px;
   padding-left: 20px;
 
@@ -139,6 +139,7 @@ body ul {
 }
 
 .articles-header {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 87%, rgba(255,255,255,1) 100%);
   height: 75px;
 
   display: grid;
@@ -163,4 +164,13 @@ body ul {
 
 .articles-header::-webkit-scrollbar {
   display: none;
+}
+
+.smoke {
+  position: absolute;
+  background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%);  border-top: 1px solid #DDDDDD;
+  width: 70px;
+  height: 152px;
+  right: 0px;
+  top: 94px;
 }

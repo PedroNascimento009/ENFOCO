@@ -15,8 +15,12 @@
     display: flex;
   }
 }
-@media (max-width: 862px) {
+@media (max-width: 896px) {
   .aside1 {
+    display: none;
+  }
+
+  .related > div > article:last-child {
     display: none;
   }
 }
@@ -51,5 +55,30 @@
 
   .nav-top-search > form > input {
     width: 100%;
+  }
+
+  .pass-back {
+    flex-direction: column;
+  }
+
+  .container-follow {
+    width: 90%;
+  }
+
+  .icon-google {
+    left: 230px;
+    bottom: 140px;
+  }
+
+  .pb-article {
+    width: 100%;
+  }
+
+  .related > div {
+    flex-direction: column;
+  }
+
+  .related > div > article:last-child {
+    display: block;
   }
 }

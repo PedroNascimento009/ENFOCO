@@ -31,6 +31,12 @@ footer {
 
 .navbar-footer > ul > li > a {
     text-decoration: none;
+
+    margin-bottom: 10px;
+}
+
+.navbar-footer > ul > li > a:first-child {
+    margin-top: 10px;
 }
 
 .navbar-right > ul {
