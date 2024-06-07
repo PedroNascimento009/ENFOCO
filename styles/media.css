@@ -26,6 +26,10 @@
 }
 
 @media (max-width: 590px) {
+  .smoke {
+    top: 167px;
+  }
+
   .navbar-top {
     grid-template-areas:
       "logo logo burguer"
@@ -36,6 +40,11 @@
     justify-self: start;
 
     grid-area: logo;
+  }
+
+  .nav-top-logo > img {
+    width: 190px;
+    height: 44px;
   }
 
   .nav-top-btn-buguer {
@@ -57,28 +66,161 @@
     width: 100%;
   }
 
+  .quote, .container {
+    width: 100%;
+  }
+
+  .quote > .mark-quote1 {
+    align-self: center;
+    top: 10px;
+    left: 0;
+
+    margin-bottom: 6px;
+  }
+
+  .quote > blockquote {
+    max-width: 100%;
+  }
+
+  .quote > .mark-quote2 {
+    display: none;
+  }
+
+  .container > p {
+    max-width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form > span {
+    max-width: 100%;
+  }
+
+  .categories2 > a {
+    margin-right: 8px;
+  }
+
   .pass-back {
     flex-direction: column;
-  }
-
-  .container-follow {
-    width: 90%;
-  }
-
-  .icon-google {
-    left: 230px;
-    bottom: 140px;
   }
 
   .pb-article {
     width: 100%;
   }
 
+  .follow {
+    width: 95%;
+  }
+
+  .icon-google {
+    top: 30px;
+    align-self: flex-start;
+  }
+
+  .pb-article:first-child > div > a:last-child {
+    padding-right: 0px;
+  }
+
+  .pb-article:last-child > div > a:last-child {
+    padding-left: 0px;
+  }
+
   .related > div {
     flex-direction: column;
+  }
+
+  .related > div > article, .related > div > article > a > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
   }
 
   .related > div > article:last-child {
     display: block;
   }
+
+  .copyright {
+    text-align: start;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 365px){
+  .section-header {
+    display: none;
+  }
+
+  .icons-fixed {
+    z-index: 4;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+    background-color: #FFFF;
+    height: 80px;
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  .icons-fixed > ul:first-child > li > a {
+    padding: 7px 12px;
+    padding-bottom: 6px;
+  }
+
+  .icons-fixed > ul:last-child > li > a > img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .layout-footer {
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .navbar-footer ul {
+    width: 170px;
+  }
+
+  .navbar-right > ul {
+    justify-content: start;
+  }
+
+  .navbar-right> ul > li:first-child > a {
+    margin-left: 0;
+  }
+
+  .logo-2, .credits {
+    text-align: start;
+  }
+
+  .credits {
+    display: flex;
+    gap: 30px;
+  }
+
+  .navbar-footer > ul > li:last-child {
+    display: none;
+  }
+
+  /* Fonts */
+
+  .navbar-categories > ul > li > a {
+    font-size: 14px;
+  }
+
+  .categories > a {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 100px;
+  }
+
 }

@@ -4,6 +4,7 @@ footer {
 
 .layout-footer {
     max-width: 1200px;
+    min-width: 310px;
 
     padding-top: 36px;
     padding-left: 20px;
