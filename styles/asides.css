@@ -11,37 +11,61 @@
   margin-top: 68px;
 }
 
-.ads > figure {
+.ads>figure {
   display: flex;
   flex-direction: column;
 
   gap: 34px;
 }
 
-.ads > figure > a:last-child {
+.ads>figure>a:last-child {
   margin-bottom: 34px;
 }
 
-.ads > figure {
+.ads>figure {
   display: flex;
   justify-content: stretch;
 }
 
-.lastest-news > article {
+.lastest-news>article {
   max-width: 300px;
 }
 
-.lastest-news > article > a {
+.lastest-news>article>a {
   display: flex;
   align-items: center;
-
-  flex-direction: row;
 
   margin: 20px 0px;
 
   text-decoration: none;
 }
 
-.lastest-news > article > a > h3 {
+.lastest-news>article>a>h3 {
   margin-left: 16px;
+}
+
+.aside2 {
+  grid-area: aside2;
+  display: none;
+
+  margin-bottom: 40px;
+}
+
+.lastest-news2>article {
+  max-width: 85%;
+  height: 130px;
+
+  margin: 16px 0px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lastest-news2>article>div>a>h3 {
+  margin-top: 8px;
+}
+
+.lastest-news2>article>div>a {
+  text-decoration: none;
 }
