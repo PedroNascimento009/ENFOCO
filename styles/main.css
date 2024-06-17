@@ -5,9 +5,10 @@ main {
 .layout-main {
   display: grid;
   grid-template-areas:
+    "icons category aside"
     "icons article aside"
     "icons tags aside"
-    "icons aside2 aside";
+    "icons aside-mobile aside";
 
   margin: 0 auto;
   max-width: 1332px;
@@ -17,12 +18,8 @@ main {
   background-color: #DDDDDD;
 }
 
-.ads-mobile {
-  display: none;
-  text-align: center;
-}
-
-.icons-left {
+/* Icons */
+.side-icons {
   grid-area: icons;
   width: 40px;
 
@@ -31,55 +28,51 @@ main {
   align-items: start;
   flex-direction: column;
   flex-basis: 63px;
+  gap: 8px;
 }
 
-.icons-left>ul>li {
-  margin-bottom: 8px;
+.main-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.45vw;
 }
 
-.icons-fixed {
-  max-width: 700px;
-
-  padding: 0;
-  margin: 0px auto;
-
+.listen-icon>li>a {
   display: flex;
   align-items: center;
-}
 
-.icons-fixed>ul:first-child {
-  background-color: #ffff;
+  height: 48px;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 47px;
-
-  border-radius: 31px;
   box-shadow: 0px 5px 15px #00000037;
+  border-radius: 31px;
 
-  white-space: nowrap;
+  text-decoration: none;
 }
 
-.icons-fixed>ul:first-child>li>a {
-
-  background-color: #139933;
+.play-icon {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  margin-left: 5px;
   border-radius: 50%;
-  padding: 9px 14px;
-  padding-bottom: 8px;
-
-  margin-left: 3px;
+  background-color: #139933;
 }
 
-.icons-fixed>ul:last-child {
+.listen-icon>li>a>span {
+  width: 136px;
+  text-align: center;
+}
+
+.social-icons {
   display: none;
   justify-content: space-between;
+  gap: 2px;
+
+  width: 188px;
 }
 
-.icons-fixed>ul:last-child>li {
-  margin-left: 10px;
-}
-
+/* Block News */
 .container-tags {
   grid-area: tags;
 

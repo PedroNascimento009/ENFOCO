@@ -1,4 +1,5 @@
-.aside1 {
+/* Aside */
+.sidebar {
   grid-area: aside;
 
   display: flex;
@@ -7,45 +8,33 @@
   margin-left: 10px;
 }
 
-.aside-right {
+.sidebar-contents {
   margin-top: 68px;
 }
 
-.ads>figure {
-  display: flex;
-  flex-direction: column;
-
-  gap: 34px;
+.lastest-news {
+  display: grid;
+  gap: 20px;
 }
 
-.ads>figure>a:last-child {
-  margin-bottom: 34px;
-}
-
-.ads>figure {
-  display: flex;
-  justify-content: stretch;
-}
-
-.lastest-news>article {
+.news {
   max-width: 300px;
 }
 
-.lastest-news>article>a {
+.news-article {
   display: flex;
   align-items: center;
-
-  margin: 20px 0px;
 
   text-decoration: none;
 }
 
-.lastest-news>article>a>h3 {
+.news-article>h3 {
   margin-left: 16px;
 }
 
-.aside2 {
-  grid-area: aside2;
+/* Aside-mobile */
+.sidebar-mobile {
+  grid-area: aside-mobile;
   display: none;
 
   margin-bottom: 40px;

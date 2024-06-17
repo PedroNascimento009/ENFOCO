@@ -17,24 +17,34 @@ body {
 }
 
 /* Header */
-.navbar-categories>ul>li>a {
+.nav-top-search-form>input {
+  font-family: "Poppins", sans-serif;
+
+  color: #101010;
+  
+  font-size: 16px;
+}
+
+.option>a {
   color: #2e2e2e;
 
   font-size: 16px;
 }
 
-.article-header>article>span {
+.highlight-article>span {
+  color: #101010;
+
   font-size: 16px;
 }
 
 /* Main */
 
-.categories>a {
+.category>a {
   color: #101010;
   font-size: 14px;
 }
 
-.categories>div>span {
+.category>div>span {
   color: #139933;
   font-size: 18px;
   font-weight: bold;
@@ -54,10 +64,10 @@ p {
   line-height: 32px;
 }
 
-.icon-fixed>ul:first-child>li>span {
+.listen-icon>li>a>span{
   color: #101010;
 
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -65,14 +75,14 @@ p {
   font-size: 16px;
 }
 
-.form>span {
+.poll>span {
   color: #139933;
 
   font-size: 24px;
   font-weight: bold;
 }
 
-.form>form>button {
+.form-poll>button {
   color: #ffffff;
 
   font-family: Poppins;
@@ -94,14 +104,14 @@ p {
   font-style: normal;
 }
 
-.container>p {
+mark {
   color: #ffffff;
 
   font-size: 28px;
   font-weight: bold;
 }
 
-.path2 {
+.subtitle {
   color: #101010;
 
   font-size: 26px;

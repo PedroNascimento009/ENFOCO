@@ -21,13 +21,13 @@
   <header>
     <nav class="navbar-top">
       <div class="nav-top-btn-buguer">
-        <a href="#"><img src="components/imgs/menu.svg" alt="menu-burguer" /></a>
+        <a href="#"><img src="components/imgs/menu.svg" alt="menu-burguer" width="20" height="16" /></a>
       </div>
       <div class="nav-top-logo">
         <img src="components/imgs/logo-enfo.webp" alt="logo-enfo" width="270" height="58" />
       </div>
       <div class="nav-top-search">
-        <form>
+        <form class="nav-top-search-form">
           <input type="search" placeholder="Busque aqui..." />
           <button type="submit">
             <img src="components/imgs/search.svg" alt="pesquisa" />
@@ -36,109 +36,112 @@
       </div>
     </nav>
 
-    <nav class="navbar-categories">
-      <ul>
-        <li><a href="#">Esportes</a></li>
-        <li><a href="#">Capas</a></li>
-        <li><a href="#">Polícia</a></li>
-        <li><a href="#">Política</a></li>
-        <li><a href="#">Cidades</a></li>
-        <li><a href="#">Brasil & Mundo</a></li>
-        <li><a href="#">Entretenimento</a></li>
-        <li><a href="#">Colunistas</a></li>
-        <li><a href="#">Webstories</a></li>
-        <li><a href="#">Tá bombando!</a></li>
-        <li><a href="#">Vídeos</a></li>
-      </ul>
-    </nav>
+    <hr>
+    <menu class="category-list">
+      <li class="option option-green"><a href="#">Esportes</a></li>
+      <li class="option option-gray"><a href="#">Capas</a></li>
+      <li class="option option-red"><a href="#">Polícia</a></li>
+      <li class="option option-brown"><a href="#">Política</a></li>
+      <li class="option option-cyan"><a href="#">Cidades</a></li>
+      <li class="option option-mossgreen"><a href="#">Brasil & Mundo</a></li>
+      <li class="option option-purple"><a href="#">Entretenimento</a></li>
+      <li class="option option-darkpurple"><a href="#">Colunistas</a></li>
+      <li class="option option-purple"><a href="#">Webstories</a></li>
+      <li class="option option-orange"><a href="#">Tá bombando!</a></li>
+      <li class="option option-gray2"><a href="#">Vídeos</a></li>
+    </menu>
+    <hr>
 
-    <section class="section-header">
-      <div class="layout-section">
-        <div class="articles-header">
-          <article>
-            <img src="components/imgs/roberto-carlos.webp" alt="roberto-carlos" width="75" height="75" />
-            <span>Roberto Carlos em Niterói: ingressos mais caros já
-              acabaram</span>
-          </article>
-          <article>
-            <img src="components/imgs/ney-biancardi.webp" alt="Neymar&Biancardi" width="75" height="75" />
-            <span>Após declaração de Neymar, Biancardi toma atitude
-              inusitada</span>
-          </article>
-          <article>
-            <img src="components/imgs/ratinho.webp" alt="ratinnho" width="75" height="75" />
-            <span>Ratinho recebe intimação por declarações homofóbicas</span>
-          </article>
-          <article>
-            <img src="components/imgs/trem.webp" alt="trem" width="75" height="75" />
-            <span>Só delas! VLT carioca terá vagão exclusivo para as
-              mulheres</span>
-          </article>
-          <article>
-            <img src="components/imgs/chuva.webp" alt="chuva" width="75" height="75" />
-            <span>Frente fria vai mudar o tempo no Rio; saiba quando</span>
-          </article>
-        </div>
-      </div>
-    </section>
+    <div class="article-highlights">
+      <a class="highlight" href="#">
+        <article class="highlight-article">
+          <img src="components/imgs/roberto-carlos.webp" alt="roberto-carlos" width="75" height="75" />
+          <span>Roberto Carlos em Niterói: ingressos mais caros já
+            acabaram</span>
+        </article>
+      </a>
+      <a class="highlight" href="#">
+        <article class="highlight-article">
+          <img src="components/imgs/ney-biancardi.webp" alt="Neymar&Biancardi" width="75" height="75" />
+          <span>Após declaração de Neymar, Biancardi toma atitude
+            inusitada</span>
+        </article>
+      </a>
+      <a class="highlight" href="#">
+        <article class="highlight-article">
+          <img src="components/imgs/ratinho.webp" alt="ratinnho" width="75" height="75" />
+          <span>Ratinho recebe intimação por declarações homofóbicas</span>
+        </article>
+      </a>
+      <a class="highlight" href="#">
+        <article class="highlight-article">
+          <img src="components/imgs/trem.webp" alt="trem" width="75" height="75" />
+          <span>Só delas! VLT carioca terá vagão exclusivo para as
+            mulheres</span>
+        </article>
+      </a>
+      <a class="highlight" href="#">
+        <article class="highlight-article">
+          <img src="components/imgs/chuva.webp" alt="chuva" width="75" height="75" />
+          <span>Frente fria vai mudar o tempo no Rio; saiba quando</span>
+        </article>
+      </a>
+    </div>
 
     <div class="smoke"></div>
-
+    <hr>
   </header>
 
   <main>
     <div class="layout-main">
-      <div class="icons-left">
-        <ul>
-          <li>
-            <a href="#"><img src="components/imgs/facebook.svg" alt="facebook" width="40" height="40" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="components/imgs/instagram.svg" alt="instagram" width="40" height="40" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="components/imgs/x.svg" alt="twitter" width="40" height="40" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="components/imgs/whatsapp.svg" alt="tw" width="40" height="40" /></a>
-          </li>
-        </ul>
-      </div>
+      <ul class="side-icons">
+        <li>
+          <a href="#"><img src="components/imgs/facebook.svg" alt="facebook" width="40" height="40" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="components/imgs/instagram.svg" alt="instagram" width="40" height="40" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="components/imgs/x.svg" alt="twitter" width="40" height="40" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="components/imgs/whatsapp.svg" alt="tw" width="40" height="40" /></a>
+        </li>
+      </ul>
 
-      <article class="article-main">
-        <div class="categories">
-          <a href="#">Home</a>
-          <span>></span>
-          <a href="#">Esportes</a>
-          <figure class="ads-mobile">
-            <img src="components/imgs/anúncio-3-2x.webp" alt="">
-          </figure>
-          <div>
-            <span>Quarta edição</span>
-          </div>
+      <div class="category">
+        <a href="#">Home</a>
+        <span>></span>
+        <a href="#">Esportes</a>
+
+        <div class="advertisement-mobile">
+          <img src="components/imgs/anúncio-3-2x.webp" alt="anúncio-mobile" width="300" height="250">
         </div>
 
-        <h1>
-          'Meia Maratona do Cristo': inscrições começam nesta quarta-feira
-        </h1>
-        <p class="path">
-          Trajeto inclui passagem por outros cartões postais do Rio
-        </p>
+        <div>
+          <span>Quarta edição</span>
+        </div>
+      </div>
 
-        <span class="upload">
-          Publicado 27 de março de 2024 às 08:48 h | Atualizado em 27/03/2024,  08:48 | Autor: Enfoco
-        </span>
+      <article class="main-article">
+        <header class="article-header-block">
+          <h1>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h1>
+          <p>Trajeto inclui passagem por outros cartões postais do Rio</p>
+          <span> Publicado 27 de março de 2024 às 08:48 h | Atualizado em 27/03/2024, 08:48 | Autor: Enfoco</span>
+        </header>
 
-        <div class="border"></div>
+        <hr>
 
-        <div class="icons-fixed">
-          <ul>
+        <div class="main-icons">
+          <ul class="listen-icon">
             <li>
-              <a href="#"><img src="components/imgs/play.svg" alt="ouvir" width="40" height="40"/></a>
-              <span>Ouça o artigo</span>
+              <a href="#">
+                <div class="play-icon"><img src="components/imgs/play.svg" alt="ouvir" width="13" height="13" /></div>
+                <span>Ouça o artigo</span>
+              </a>
             </li>
           </ul>
-          <ul>
+          <ul class="social-icons"><!--Icones do Mobile-->
             <li>
               <a href="#"><img src="components/imgs/facebook.svg" alt="facebook" width="40" height="40" />
               </a>
@@ -148,9 +151,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src="components/imgs/x.svg" alt="twitter" width="40" height="40" />
-              </a>
+              <a href="#"><img src="components/imgs/x.svg" alt="twitter" width="40" height="40" /></a>
             </li>
             <li>
               <a href="#"><img src="components/imgs/whatsapp.svg" alt="tw" /></a>
@@ -158,24 +159,24 @@
           </ul>
         </div>
 
-        <figure class="ads2">
+        <div class="advertisement2">
           <img src="components/imgs/anúncio-3.webp" alt="anúncio-3" width="728" height="90" />
-        </figure>
+        </div>
 
         <figure class="half-marathon">
           <img src="components/imgs/meia-maratona-rj.webp" alt="meia-maratona-rj" width="864" height="566" />
-          <figcaption>
-            A chegada da corrida será aos pés do Cristo Redentor | Foto: Divulgação/Effect Sport
-          </figcaption>
+          <figcaption> A chegada da corrida será aos pés do Cristo Redentor | Foto: Divulgação/Effect Sport</figcaption>
         </figure>
 
-        <p>
-          Rio - A espera acabou. A Meia Maratona do Cristo 2024 abre inscrições a partir desta quarta-feira, dia 8 de maio, com condições especiais para participantes de edições passadas. A prova deste ano acontece no dia 29 de setembro, mais uma vez oferecendo uma experiência inesquecível em trajeto que percorre cartões postais do Rio de Janeiro e chegada aos pés do Cristo Redentor. As inscrições poderão ser feitas por meio do site <a href="https://meiamaratonadocristo.com.br/">meiamaratonadocristo.com.br</a>, com vagas limitadas.
-        </p>
+        <p>Rio - A espera acabou. A Meia Maratona do Cristo 2024 abre inscrições a partir desta quarta-feira, dia 8 de
+          maio, com condições especiais para participantes de edições passadas. A prova deste ano acontece no dia 29 de
+          setembro, mais uma vez oferecendo uma experiência inesquecível em trajeto que percorre cartões postais do Rio
+          de Janeiro e chegada aos pés do Cristo Redentor. As inscrições poderão ser feitas por meio do site <a
+            href="https://meiamaratonadocristo.com.br/">meiamaratonadocristo.com.br</a>, com vagas limitadas.</p>
 
         <div class="quote">
           <div class="mark-quote1">
-            <img src="components/imgs/quote.svg" alt="quote1" />
+            <img src="components/imgs/quote.svg" alt="quote1" width="30" height="24" />
           </div>
           <blockquote>
             Foi incrível! Todo o percurso é muito desafiador, ainda mais com a
@@ -183,37 +184,39 @@
           </blockquote>
           <cite>Luiza Cravo, Campeã da edição de 2023</cite>
           <div class="mark-quote2">
-            <img src="components/imgs/quote.svg" alt="quote1" />
+            <img src="components/imgs/quote.svg" alt="quote1" width="30" height="24" />
           </div>
         </div>
 
-        <figure class="ads3">
+        <div class="advertisement3">
           <img src="components/imgs/ponte-niteroi.webp" alt="ponte-niteroi" width="728" height="90" />
-        </figure>
+        </div>
 
-        <figure class="ads4">
+        <div class="advertisement4">
           <img src="components/imgs/anúncio-4.webp" alt="#vamosjuntos" width="300" height="250">
-        </figure>
+        </div>
 
-        <p>
-          Em alusão aos percursos do evento, 10 km e 21 km, a abertura das vendas acontece às 10h21 para quem participou das três edições já realizadas. A partir das 13h21, quem correu a prova por dois anos também poderá se inscrever. Na última janela do dia, que abre às 16h21, inscritos em 2023 terão acesso ao sistema de inscrição. Já na quinta-feira, dia 9, também a partir das 10h21, a venda será para o público em geral.
-        </p>
+        <p>Em alusão aos percursos do evento, 10 km e 21 km, a abertura das vendas acontece às 10h21 para quem
+          participou
+          das três edições já realizadas. A partir das 13h21, quem correu a prova por dois anos também poderá se
+          inscrever. Na última janela do dia, que abre às 16h21, inscritos em 2023 terão acesso ao sistema de inscrição.
+          Já na quinta-feira, dia 9, também a partir das 10h21, a venda será para o público em geral.</p>
 
-        <section class="container">
-          <p>
-            A prova deste ano acontece no dia 29 de setembro, mais uma vez oferecendo uma experiência inesquecível em trajeto que percorre cartões postais do Rio de Janeiro e chegada aos pés do Cristo Redentor.
-          </p>
-        </section>
+        <mark>A prova deste ano acontece no dia 29 de setembro, mais uma vez oferecendo uma experiência inesquecível em
+          trajeto que percorre cartões postais do Rio de Janeiro e chegada aos pés do Cristo Redentor.</mark>
 
-        <p>
-          A prova é um sucesso entre os corredores de todo o país, que se encontram para desfrutar de um dos mais belos cenários do mundo. Desde a sua criação, em 2021, o evento sempre teve suas inscrições esgotadas. Só no último ano, todas as vagas foram preenchidas em apenas 48 horas, e a expectativa para 2024 é que o período de vendas seja ainda mais curto.
-        </p>
+        <p>A prova é um sucesso entre os corredores de todo o país, que se encontram para desfrutar de um dos mais belos
+          cenários do mundo. Desde a sua criação, em 2021, o evento sempre teve suas inscrições esgotadas. Só no último
+          ano, todas as vagas foram preenchidas em apenas 48 horas, e a expectativa para 2024 é que o período de vendas
+          seja ainda mais curto.</p>
 
-        <h2 class="path2">O trajeto</h2>
+        <h2 class="subtitle">O trajeto</h2>
 
-        <p class="no-margin">
-          Ambos os pontos da Meia Maratona do Cristo entregam aos participantes belas vistas da cidade conectando esporte e natureza, com o clima agradável e ar puro da Floresta da Tijuca. Pelo caminho, atletas passam pela Vista Chinesa, Paineiras, Mesa do Imperador e o próprio Cristo Redentor, local de chegada das provas. Ao final, todos terão acesso ao santuário, com retorno via Trem do Corcovado, completando a experiência do evento.
-        </p>
+        <p>Ambos os pontos da Meia Maratona do Cristo entregam aos participantes belas vistas da cidade conectando
+          esporte e natureza, com o clima agradável e ar puro da Floresta da Tijuca. Pelo caminho, atletas passam pela
+          Vista Chinesa, Paineiras, Mesa do Imperador e o próprio Cristo Redentor, local de chegada das provas. Ao
+          final, todos terão acesso ao santuário, com retorno via Trem do Corcovado, completando a experiência do
+          evento.</p>
 
         <div class="iframe-ytb">
           <iframe width="864" height="486" src="https://www.youtube.com/embed/aTCh6gdJEng?si=IYiFcYR218VJjgKl"
@@ -222,13 +225,13 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        <p>
-          A Meia Maratona do Cristo é licenciada pelo Santuário Arquiodicesano Cristo Redentor, e integra o calendário de celebrações de aniversário do monumento. O projeto é uma realização da agência Effect Sport com a Tribus Adventure.
-        </p>
+        <p>A Meia Maratona do Cristo é licenciada pelo Santuário Arquiodicesano Cristo Redentor, e integra o calendário
+          de celebrações de aniversário do monumento. O projeto é uma realização da agência Effect Sport com a Tribus
+          Adventure.</p>
 
-        <section class="form">
+        <section class="poll">
           <span>E você, já participou da maratona?</span>
-          <form>
+          <form class="form-poll">
             <div>
               <input type="radio" id="yes" name="option-marathon" />
               <label for="yes">Sim, participei</label>
@@ -245,149 +248,132 @@
           </form>
         </section>
 
-        <div class="border"></div>
+        <hr>
       </article>
 
-      <aside class="aside1">
-        <div class="aside-right">
-          <div class="ads">
-            <figure>
-              <a href="#"><img src="components/imgs/anúncio.webp" alt="anúncio" width="300" height="2050" /></a>
-              <a href="#"><img src="components/imgs/anúncio-2.webp" alt="anúncio-2" width="300" height="600" /></a>
-            </figure>
+      <aside class="sidebar">
+        <div class="sidebar-contents">
+          <div class="advertisement-aside">
+            <a href="#"><img src="components/imgs/anúncio.webp" alt="anúncio" width="300" height="250" /></a>
+            <a href="#"><img src="components/imgs/anúncio-2.webp" alt="anúncio-2" width="300" height="600" /></a>
           </div>
 
           <section class="lastest-news">
             <span>Últimas Notícias</span>
-            <article>
-              <a href="#">
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/7-últimas.webp" alt="julgamento" width="106" height="101" />
-                <h3>
-                  Julgamento do bicheiro Piruinha é adiado após pedido do MPRJ
-                </h3>
-              </a>
-            </article>
-            <article>
-              <a href="#">
+                <h3>Julgamento do bicheiro Piruinha é adiado após pedido do MPRJ</h3>
+              </article>
+            </a>
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/6-últimas.webp" alt="falta-água" width="106" height="101" />
-                <h3>
-                  Vai faltar água em 14 bairros do Rio; saiba quem deve
-                  economizar
-                </h3>
-              </a>
-            </article>
-            <article>
-              <a href="#">
+                <h3> Vai faltar água em 14 bairros do Rio; saiba quem deve economizar</h3>
+              </article>
+            </a>
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/5-últimas.webp" alt="processo" width="106" height="101" />
-                <h3>
-                  Ex-cozinheira processa Glória Pires e pede compensação
-                  milionária
-                </h3>
-              </a>
-            </article>
-            <article>
-              <a href="#">
+                <h3>Ex-cozinheira processa Glória Pires e pede compensação milionária</h3>
+              </article>
+            </a>
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/4-últimas.webp" alt="exames" width="106" height="101" />
-                <h3>
-                  Exames da Cedae mostram que tolueno está diminuindo na água
-                </h3>
-              </a>
-            </article>
-            <article>
-              <a href="#">
+                <h3>Exames da Cedae mostram que tolueno está diminuindo na água</h3>
+              </article>
+            </a>
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/3-últimas.webp" alt="influencer" width="106" height="101" />
-                <h3>
-                  Influencer viraliza ao buscar ‘marido rico’ dentro de avião;
-                  vídeo
-                </h3>
-              </a>
-            </article>
-            <article>
-              <a href="#">
+                <h3>Influencer viraliza ao buscar ‘marido rico’ dentro de avião; vídeo</h3>
+              </article>
+            </a>
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/2-últimas.webp" alt="disco-voador" width="106" height="101" />
-                <h3>
-                  Disco voador? Nuvem no formato do MAC chama atenção em
-                  Niterói
-                </h3>
-              </a>
-            </article>
-            <article>
-              <a href="#">
+                <h3>Disco voador? Nuvem no formato do MAC chama atenção em Niterói</h3>
+              </article>
+            </a>
+            <a href="#" class="news">
+              <article class="news-article">
                 <img src="components/imgs/1-últimas.webp" alt="punição" width="106" height="101" />
-                <h3>
-                  Bia toma punição e coloca a casa toda no ‘Tá com Nada’
-                  novamente
-                </h3>
-              </a>
-            </article>
+                <h3>Bia toma punição e coloca a casa toda no ‘Tá com Nada’ novamente</h3>
+              </article>
+            </a>
           </section>
         </div>
       </aside>
 
-      <aside class="aside2">
+      <aside class="sidebar-mobile"><!--side-mobile-->
         <section class="lastest-news2">
           <span>Últimas Notícias</span>
           <article>
-              <a href=""><img src="components/imgs/últimas-1-2.webp" alt="ator" width="130" height="130" /></a>
-              <div>
+            <a href=""><img src="components/imgs/últimas-1-2.webp" alt="ator" width="130" height="130" /></a>
+            <div>
               <a href="#">Maracanã</a>
-              <a href="#"><h3>
-                Ator de 'Todo Mundo Odeia O Chris' anuncia vinda ao Brasil
-              </h3></a>
-              </div>
-          </article>
-          <article>
-              <a href="#"><img src="components/imgs/últimas-2-2.webp" alt="comediante" width="130" height="130" /></a>
-              <div>
-               <a href="#">Cara Nova</a>
-              <a href="#"><h3>
-                SG sorteia ingressos para apresentação de comediante
-              </h3></a>
+              <a href="#">
+                <h3>Ator de 'Todo Mundo Odeia O Chris' anuncia vinda ao Brasil</h3>
+              </a>
             </div>
           </article>
           <article>
-              <a href="#"><img src="components/imgs/últimas-3-2.webp" alt="niteroi" width="130" height="130" /></a>
-              <div>
-                <a href="#">Fauna</a>
-              <a href="#"><h3>
-                Niterói terá passeio de barco para observar baleias e golfinhos
-              </h3></a>
-              </div>
-          </article>
-          <article>
-              <a href="#"><img src="components/imgs/últimas-4-2.webp" alt="flamengo" width="130" height="130" /></a>
-              <div>
-                <a href="3">Esportes</a>
-              <a href="#"><h3>
-                Flamengo enfrenta Palestino em jogo decisivo pela Libertadores
-              </h3></a>
+            <a href="#"><img src="components/imgs/últimas-2-2.webp" alt="comediante" width="130" height="130" /></a>
+            <div>
+              <a href="#">Cara Nova</a>
+              <a href="#">
+                <h3>SG sorteia ingressos para apresentação de comediante</h3>
+              </a>
             </div>
           </article>
           <article>
-              <a href="#"><img src="components/imgs/últimas-5-2.webp" alt="navio" width="130" height="130" /></a>
-              <div>
-                <a href="#">Brasil & Mundo</a>
-              <a href="#"><h3>
-                Navio da Marinha sairá de Niterói em apoio à população do RS
-              </h3></a>
+            <a href="#"><img src="components/imgs/últimas-3-2.webp" alt="niteroi" width="130" height="130" /></a>
+            <div>
+              <a href="#">Fauna</a>
+              <a href="#">
+                <h3>Niterói terá passeio de barco para observar baleias e golfinhos</h3>
+              </a>
             </div>
           </article>
           <article>
-              <a href="#"><img src="components/imgs/últimas-6-2.webp" alt="meia-maratona-rj" width="130" height="130" /></a>
-              <div>
-                <a href="#">Esportes</a>
-              <a href="#"><h3>
-                'Meia Maratona do Cristo': inscrições começam nesta quarta-feira
-              </h3></a>
+            <a href="#"><img src="components/imgs/últimas-4-2.webp" alt="flamengo" width="130" height="130" /></a>
+            <div>
+              <a href="#">Esportes</a>
+              <a href="#">
+                <h3>
+                  Flamengo enfrenta Palestino em jogo decisivo pela Libertadores
+                </h3>
+              </a>
             </div>
           </article>
           <article>
-              <a href="#"><img src="components/imgs/últimas-7-2.webp" alt="país-mais-quente" width="130" height="130" /></a>
-              <div>
-                <a href="#">38°c</a>
-              <a href="#"><h3>
-                Descubra por que Niterói é a cidade mais quente do país
-              </h3></a>
+            <a href="#"><img src="components/imgs/últimas-5-2.webp" alt="navio" width="130" height="130" /></a>
+            <div>
+              <a href="#">Brasil & Mundo</a>
+              <a href="#">
+                <h3>Navio da Marinha sairá de Niterói em apoio à população do RS</h3>
+              </a>
+            </div>
+          </article>
+          <article>
+            <a href="#"><img src="components/imgs/últimas-6-2.webp" alt="meia-maratona-rj" width="130"
+                height="130" /></a>
+            <div>
+              <a href="#">Esportes</a>
+              <a href="#">
+                <h3>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h3>
+              </a>
+            </div>
+          </article>
+          <article>
+            <a href="#"><img src="components/imgs/últimas-7-2.webp" alt="país-mais-quente" width="130"
+                height="130" /></a>
+            <div>
+              <a href="#">38°c</a>
+              <a href="#">
+                <h3>Descubra por que Niterói é a cidade mais quente do país</h3>
+              </a>
             </div>
           </article>
         </section>
@@ -403,10 +389,7 @@
           </div>
           <section class="follow">
             <div class="container-follow">
-              <p>
-                Siga o <a href="#">Enfoco Site de Notícias</a> no Google e
-                fique por dentro de tudo
-              </p>
+              <p>Siga o <a href="#">Enfoco Site de Notícias</a> no Google e fique por dentro de tudo</p>
             </div>
             <div class="icon-google">
               <img src="components/imgs/google-icon.svg" alt="google-icon" width="67.75" height="58.18" />
@@ -418,21 +401,17 @@
               <span>Artigo anterior</span>
               <div>
                 <a href="#">
-                  <h4>
-                    Neymar e Bruna Marquezine 'juntos' na festa da Anitta
-                  </h4>
+                  <h4>Neymar e Bruna Marquezine 'juntos' na festa da Anitta</h4>
                 </a>
                 <a href="#">
-                  <</a>
+                  < </a>
               </div>
             </article>
             <article class="pb-article">
               <span>Próximo artigo</span>
               <div>
                 <a href="#">
-                  <h4>
-                    'Escreveu a sua história', celebra mulher do campeão Davi
-                  </h4>
+                  <h4>'Escreveu a sua história', celebra mulher do campeão Davi</h4>
                 </a>
                 <a href="#">></a>
               </div>
@@ -449,10 +428,7 @@
               <div>
                 <a href="#">Tricolor</a>
                 <a href="#">
-                  <h4>
-                    Após empate, Fluminense busca a primeira vitória na
-                    Libertadores
-                  </h4>
+                  <h4>Após empate, Fluminense busca a primeira vitória na Libertadores</h4>
                 </a>
               </div>
             </article>
@@ -462,10 +438,7 @@
               <div>
                 <a href="#">Maracanã</a>
                 <a href="#">
-                  <h4>
-                    Fluminense: Martinelli é opção na zaga para jogo da
-                    Libertadores
-                  </h4>
+                  <h4>Fluminense: Martinelli é opção na zaga para jogo da Libertadores</h4>
                 </a>
               </div>
             </article>
@@ -475,10 +448,7 @@
               <div>
                 <a href="#">Desafio</a>
                 <a href="#">
-                  <h4>
-                    'Meia Maratona do Cristo': inscrições começam nesta
-                    quarta-feira
-                  </h4>
+                  <h4>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h4>
                 </a>
               </div>
             </article>
@@ -586,7 +556,7 @@
       </nav>
     </div>
     <section class="copyright">
-      <span> 2024 - Enfoco. Todos os direitos reservados. </span>
+      <span>2024 - Enfoco. Todos os direitos reservados.</span>
     </section>
   </footer>
 </body>
