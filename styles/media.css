@@ -30,15 +30,15 @@
 }
 
 @media (max-width: 896px) {
-  .aside1 {
+  .sidebar {
     display: none;
   }
 
-  .aside2 {
+  .sidebar-mobile {
     display: flex;
   }
 
-  .related>div>article:last-child {
+  .related-article:last-child {
     display: none;
   }
 }
@@ -91,7 +91,7 @@
   .mobile-icons>ul:first-child>li>a {
     margin-right: 5px;
   }
-  
+
   .article-header-block>p {
     margin-bottom: 12px;
   }
@@ -129,19 +129,19 @@
     max-width: 100%;
   }
 
-  .categories2>a {
+  .tags-area>a {
     margin-right: 8px;
   }
 
-  .pass-back {
+  .article-nav {
     flex-direction: column;
   }
 
-  .pb-article {
+  .article-nav-item {
     width: 100%;
   }
 
-  .follow {
+  .container-follow {
     width: 95%;
   }
 
@@ -155,27 +155,31 @@
     height: 38.18px;
   }
 
-  .pb-article:first-child>div>a:last-child {
+  .previous-article>div>a:last-child {
     padding-right: 0px;
   }
 
-  .pb-article:last-child>div>a:last-child {
+  .next-article>div>a:last-child {
     padding-left: 0px;
   }
 
-  .related>div {
+  .related {
     flex-direction: column;
   }
 
-  .related>div>article,
-  .related>div>article>a>img {
+  .related-article,
+  .related-article>img {
     width: 100%;
     object-fit: cover;
     border-radius: 12px;
   }
 
-  .related>div>article:last-child {
+  .related-article:last-child {
     display: block;
+  }
+
+  .mobile-news-article {
+    max-width: 100%;
   }
 
   .logo-2 {
@@ -289,20 +293,16 @@
     display: block;
   }
 
-  .lastest-news2>article {
-    max-width: 100%;
-  }
-
   .layout-footer {
     grid-template-rows: 200px 1fr;
     grid-template-columns: 1fr;
   }
 
-  .navbar-footer ul {
+  .navbar-footer>menu {
     width: 170px;
   }
 
-  .navbar-right>ul {
+  .navbar-right>menu {
     justify-content: start;
   }
 
@@ -323,17 +323,17 @@
     margin-bottom: 46px;
   }
 
-  .navbar-footer>ul>li:last-child {
+  .navbar-footer>menu>li:last-child {
     display: none;
   }
 
   /* Fonts */
 
-  .navbar-categories>ul>li>a {
+  .option>a {
     font-size: 14px !important;
   }
 
-  .categories>a {
+  .category>a {
     font-size: 12px !important;
   }
 
@@ -370,11 +370,11 @@
     font-size: 12px !important;
   }
 
-  .container-follow>p {
+  .follow>p {
     font-size: 20px !important;
   }
 
-  .pb-article>div>a>h4 {
+  .article-nav-item>div>a>h4 {
     font-size: 16px !important;
   }
 }

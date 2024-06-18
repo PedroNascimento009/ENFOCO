@@ -69,23 +69,6 @@
   right: 18px;
 }
 
-
-.advertisement2,
-.advertisement3,
-.advertisement4 {
-  text-align: center;
-}
-
-.advertisement2>img,
-.advertisement3>img {
-  width: 100%;
-  height: auto;
-}
-
-.advertisement4 {
-  display: none;
-}
-
 mark {
   background-color: #139933;
   border-radius: 12px;

@@ -160,7 +160,7 @@ hr {
 }
 
 /* Article Highlights */
-.article-highlights {
+.highlights {
   max-width: 1200px;
   padding-left: 20px;
 
@@ -176,7 +176,7 @@ hr {
   overflow-x: scroll;
 }
 
-.highlight {
+.highlights>a {
   text-decoration: none;
 }
 
@@ -189,7 +189,7 @@ hr {
   gap: 14px;
 }
 
-.article-highlights::-webkit-scrollbar {
+.highlights::-webkit-scrollbar {
   display: none;
 }
 

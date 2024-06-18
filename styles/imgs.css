@@ -1,4 +1,21 @@
 /* Main */
+.advertisement2,
+.advertisement3,
+.advertisement4 {
+  text-align: center;
+}
+
+.advertisement2>img,
+.advertisement3>img {
+  width: 100%;
+  height: auto;
+}
+
+.advertisement4 {
+  display: none;
+}
+
+
 .advertisement2>img,
 .advertisement3>img {
   width: 80%;

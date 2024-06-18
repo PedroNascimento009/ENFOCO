@@ -21,7 +21,7 @@ body {
   font-family: "Poppins", sans-serif;
 
   color: #101010;
-  
+
   font-size: 16px;
 }
 
@@ -64,7 +64,7 @@ p {
   line-height: 32px;
 }
 
-.listen-icon>li>a>span{
+.listen-icon>li>a>span {
   color: #101010;
 
   font-size: 16px;
@@ -118,64 +118,64 @@ mark {
   font-weight: bold;
 }
 
-/* Tags */
-.container-tags>section>span {
+/* Block News */
+.block-news>section>span {
   color: #101010;
 
   font-size: 24px;
   font-weight: bold;
 }
 
-.categories2 a {
+.tags-area>a {
   color: #101010;
 
   font-size: 14px;
 }
 
-.container-follow>p {
+.follow>p {
   color: #ffffff;
 
   font-size: 24px;
 }
 
-.container-follow>p>a {
+.follow>p>a {
   color: #ffffff;
 
   font-weight: bold;
 }
 
-.pb-article>span {
+.article-nav-item>span {
   color: #4F4F4F;
 
   font-size: 14px;
 }
 
-.pb-article>div>a>h4 {
+.article-nav-item>div>a>h4 {
   color: #2E2E2E;
 
   font-size: 18px;
   font-weight: 500;
 }
 
-.related>span {
+.related-block>span {
   color: #101010;
 
   font-size: 24px;
   font-weight: bold;
 }
 
-.related>span>a {
+.related-block>span>a {
   color: #139933;
 }
 
-.related-article>div>a:first-child {
+.related-text>a {
   color: #139933;
 
   font-size: 18px;
   font-weight: bold;
 }
 
-.related-article>div>a:last-child>h4 {
+.related-text>h4 {
   color: #101010;
 
   font-weight: 500;
@@ -190,26 +190,26 @@ mark {
   font-weight: bold;
 }
 
-.lastest-news>article>a>h3 {
+.news-article>h3 {
   color: #2E2E2E;
 
   font-size: 16px;
   font-weight: 500;
 }
 
-.lastest-news2>span {
+.lastest-news-mobile>span {
   color: #101010;
 
   font-size: 24px;
   font-weight: bold;
 }
 
-.lastest-news2>article>div>a:first-child {
+.article-text>a {
   font-size: 16px;
   font-weight: bold;
 }
 
-.lastest-news2>article>div>a>h3 {
+.article-text>h3 {
   color: #101010;
 
   font-size: 18px;
@@ -217,44 +217,36 @@ mark {
   line-height: 20px;
 }
 
-.lastest-news2>article:nth-child(2)>div>a {
+.title-purple {
   color: #9B28B8;
 }
 
-.lastest-news2>article:nth-child(3)>div>a {
-  color: #9B28B8;
-}
-
-.lastest-news2>article:nth-child(4)>div>a {
+.title-orange {
   color: #BD5B07;
 }
 
-.lastest-news2>article:nth-child(5)>div>a {
+.title-green {
   color: #1D8108;
 }
 
-.lastest-news2>article:nth-child(6)>div>a {
+.title-dullgreen {
   color: #2A6F48;
 }
 
-.lastest-news2>article:nth-child(7)>div>a {
-  color: #1D8108;
-}
-
-.lastest-news2>article:nth-child(8)>div>a {
+.title-blue {
   color: #047885;
 }
 
 
 /* Footer */
-.navbar-footer>ul>li>span {
+.navbar-footer>menu>li>span {
   color: #FFFFFF;
 
   font-size: 20px;
   font-weight: bold;
 }
 
-.navbar-footer>ul>li>a {
+.navbar-footer>menu>li>a {
   color: #FFFFFF;
 
   font-size: 16px;
