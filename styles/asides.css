@@ -12,6 +12,11 @@
   margin-top: 68px;
 }
 
+.advertisement-aside {
+  display: grid;
+  gap: 34px;
+}
+
 .lastest-news {
   display: grid;
   gap: 20px;

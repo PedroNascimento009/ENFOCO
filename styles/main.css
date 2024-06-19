@@ -53,14 +53,17 @@ main {
 .play-icon {
   display: flex;
   align-items: center;
+
   padding: 14px;
   margin-left: 5px;
+
   border-radius: 50%;
   background-color: #139933;
 }
 
 .listen-icon>li>a>span {
   width: 136px;
+
   text-align: center;
 }
 
@@ -81,6 +84,8 @@ main {
 
   display: grid;
   gap: 40px;
+
+  margin: 30px 0px;
 }
 
 .block-news>section {
@@ -175,16 +180,19 @@ main {
   text-align: end;
 }
 
-.article-nav-item>div>button {
-  padding: 15px 20px;
-
+.button-nav {
   background-color: transparent;
-  border: none;
 
-  cursor: pointer;
+  padding: 6px;
+  
+  box-shadow: 1.5px -1.5px 0 1px #484848 inset;
+  border: solid transparent;
+  border-width: 0 0 1.5px 1.5px;
+
+  transform: rotate(45deg);
 }
 
-.previous-article>div>button{
+.next-button{
   scale: -1;
 }
 

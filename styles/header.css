@@ -104,7 +104,7 @@ hr {
   display: none;
 }
 
-.option>a {
+.option {
   text-decoration: none;
   white-space: nowrap;
   transition: all 0.5s;
@@ -112,50 +112,49 @@ hr {
   padding: 5px 2px;
 }
 
-.option>a:hover,
-.option>a:focus {
-  transform: scale(2, 1);
+.option:hover,
+.option:focus {
   padding: 5px 15px;
   color: #ffff;
 }
 
-.option-green>a:hover {
+.option-green:hover {
   background-color: #1D8108;
 }
 
-.option-gray>a:hover {
+.option-gray:hover {
   background-color: #1D4D58;
 }
 
-.option-red>a:hover {
+.option-red:hover {
   background-color: #AD0202;
 }
 
-.option-brown>a:hover {
+.option-brown:hover {
   background-color: #6E3404;
 }
 
-.option-cyan>a:hover {
+.option-cyan:hover {
   background-color: #047885;
 }
 
-.option-mossgreen>a:hover {
+.option-mossgreen:hover {
   background-color: #2A6F48;
 }
 
-.option-purple>a:hover {
+.option-purple:hover {
   background-color: #9B28B8;
 }
 
-.option-darkpurple>a:hover {
+.option-darkpurple:hover {
   background-color: #513373;
 }
 
-.option-orange>a:hover {
+.option-orange:hover {
   background-color: #BD5B07;
 }
 
-.option-gray2>a:hover {
+.option-gray2:hover {
   background-color: #193B4F;
 }
 

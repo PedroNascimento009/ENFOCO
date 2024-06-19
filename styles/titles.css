@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-/*@font-face {
-  font-family: Poppins;
+@font-face {
+  font-family: 'Poppins', sans-serif;
   src: url(/components/font/Poppins-Regular.ttf) format(truetype);
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: Poppins-Bold;
+  font-family: 'Poppins', sans-serif;
   src: url(/components/font/Poppins-Bold.ttf) format(truetype);
   font-weight: bold;
-}*/
+  font-display: swap;
+}
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Header */
 .nav-top-search-form>input {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   color: #101010;
 
   font-size: 16px;
 }
 
-.option>a {
+.option {
   color: #2e2e2e;
 
   font-size: 16px;

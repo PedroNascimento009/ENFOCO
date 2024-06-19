@@ -15,6 +15,17 @@
     grid-template-columns: 4fr 1fr;
 }
 
+.arrows::before {
+    width: 0px;
+    padding: 6px;
+    
+    box-shadow: 1.5px -1.5px 0 1px #484848 inset;
+    border: solid transparent;
+    border-width: 0 0 1.5px 1.5px;
+  
+    transform: rotate(45deg) scale(-1);
+}
+
 .navbar-footer {
     display: flex;
     flex-wrap: wrap;
