@@ -16,7 +16,7 @@ hr {
 /* Navbar Primary */
 
 .navbar-top {
-  max-width: 1200px;
+  max-width: 1200px;/* proporção mais parecida com design(header) */
 
   margin: 0 auto;
 
@@ -90,7 +90,7 @@ hr {
   align-items: center;
   row-gap: 5px;
 
-  max-width: 1200px;
+  max-width: 1200px;/* proporção do header */
   height: 55px;
 
   margin: 0 auto;
@@ -160,7 +160,7 @@ hr {
 
 /* Article Highlights */
 .highlights {
-  max-width: 1200px;
+  max-width: 1200px;/* proporção do header */
   padding-left: 20px;
 
   margin: 10px auto;

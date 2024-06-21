@@ -1,4 +1,5 @@
-@media (max-width: 1255px) {
+@media (max-width: 1255px) {/* Desktop Layout */
+  /* Main */
   main {
     max-width: 100%;
 
@@ -29,25 +30,29 @@
 
 }
 
-@media (max-width: 896px) {
-  .sidebar {
+@media (max-width: 896px) {/* Media especifico */
+  /* Aside */
+  .sidebar { /* saída do aside lateral para o aside-mobile aparecer */
     display: none;
   }
 
+  /* Aside-Mobile */
   .sidebar-mobile {
     display: flex;
   }
 
-  .related-article:last-child {
+  /* Block News */
+  .related-article:last-child {/* último bloco dos relacionados sai, como forma de responsividade */
     display: none;
   }
 }
 
-@media (max-width: 590px) {
+@media (max-width: 595px) {/* Layout Tablet */
   .smoke {
     top: 167px;
   }
 
+  /* Main */
   .navbar-top {
     grid-template-areas:
       "logo logo burguer"
@@ -96,6 +101,29 @@
     margin-bottom: 12px;
   }
 
+  .listen-icon>li>a {
+    height: 38px;
+    width: 156px;
+  }
+
+  .play-icon {
+    padding: 10px;
+  }
+
+  .play-icon>img {
+    width: 9px;
+    height: 9px;
+  }
+
+  .social-icons {
+    width: 149px;
+  }
+
+  .social-icons>li>a>img {
+    width: 36px;
+    height: 36px;
+  }
+
   .quote,
   mark {
     width: 100%;
@@ -138,11 +166,11 @@
   }
 
   .article-nav-item {
-    width: 100%;
+    max-width: 100%;
   }
 
   .container-follow {
-    width: 95%;
+    max-width: 300px;
   }
 
   .icon-google {
@@ -154,7 +182,8 @@
     width: 47.75px;
     height: 38.18px;
   }
-
+  
+  /* Block News */
   .previous-article>div>a:last-child {
     padding-right: 0px;
   }
@@ -182,6 +211,22 @@
     max-width: 100%;
   }
 
+  /* Footer */
+  .navbar-footer>ul>li:last-child {
+    display: none;
+  }
+
+  .navbar-footer {
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .arrows::before {
+    display: inline-block;
+  }
+
+
   .logo-2 {
     margin-bottom: 18px;
   }
@@ -197,7 +242,6 @@
   }
 
   /* Fonts */
-
   h1 {
     font-size: 35px !important;
     line-height: 36px !important;
@@ -226,11 +270,14 @@
     font-size: 14px !important;
   }
 
-
+  .follow>p {
+    font-size: 20px !important;
+  }
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 398px) {/* Layout Mobile */
+  /* Main */
   .advertisement2 {
     display: none;
   }
@@ -262,29 +309,6 @@
     width: 100%;
   }
 
-  .listen-icon>li>a {
-    height: 38px;
-    width: 156px;
-  }
-
-  .play-icon {
-    padding: 10px;
-  }
-
-  .play-icon>img {
-    width: 9px;
-    height: 9px;
-  }
-
-  .social-icons {
-    width: 149px;
-  }
-
-  .social-icons>li>a>img {
-    width: 36px;
-    height: 36px;
-  }
-
   .advertisement3>img:first-child {
     display: none;
   }
@@ -293,16 +317,13 @@
     display: block;
   }
 
+  /* Footer */
   .layout-footer {
     grid-template-rows: 200px 1fr;
     grid-template-columns: 1fr;
   }
 
-  .navbar-footer>menu {
-    width: 170px;
-  }
-
-  .navbar-right>menu {
+  .navbar-right>ul {
     justify-content: start;
   }
 
@@ -323,12 +344,8 @@
     margin-bottom: 46px;
   }
 
-  .navbar-footer>menu>li:last-child {
-    display: none;
-  }
 
   /* Fonts */
-
   .option {
     font-size: 14px !important;
   }
@@ -368,10 +385,6 @@
 
   .categories2>a {
     font-size: 12px !important;
-  }
-
-  .follow>p {
-    font-size: 20px !important;
   }
 
   .article-nav-item>div>a>h4 {

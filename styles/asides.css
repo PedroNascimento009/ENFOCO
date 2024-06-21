@@ -4,7 +4,7 @@
 
   display: flex;
   justify-content: end;
-  max-width: 300px;
+  max-width: 300px; /* seguindo a largura do design */
   margin-left: 10px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .mobile-news-article {
-  max-width: 85%;
+  max-width: 600px; /* melhor largura em relação a tablet */
   height: 130px;
 
   display: flex;
