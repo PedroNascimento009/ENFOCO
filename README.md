@@ -9,7 +9,7 @@ Caso haja algum erro, fiquei grato ao reportar.
 
 - [Deploy](https://pedronascimento009.github.io/ENFOCO/)
 
-###
+### Tecnologia Usada:
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
