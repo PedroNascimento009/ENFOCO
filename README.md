@@ -3,6 +3,11 @@
 Projeto proposto pela empresa Mundiware para o meu desenvolvimento profissional.
 Caso haja algum erro, fiquei grato ao reportar.
 
+
+## Optimizations
+
+Foi removidos as âncoras dos artigos do aside-mobile.
+
 ## Autho
 
 - [@PedroNascimento009](https://github.com/PedroNascimento009)
