@@ -4,7 +4,7 @@ Projeto proposto pela empresa Mundiware para o meu desenvolvimento profissional.
 Caso haja algum erro, fiquei grato ao reportar.
 
 
-## Optimizations
+## Atualizações
 
 Foi removidos as âncoras dos artigos do aside-mobile.
 
