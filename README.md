@@ -8,7 +8,7 @@ Caso haja algum erro, fiquei grato ao reportar.
 
 Foi removidos as âncoras dos artigos do aside-mobile.
 
-## Autho
+## Autor e Deploy
 
 - [@PedroNascimento009](https://github.com/PedroNascimento009)
 
