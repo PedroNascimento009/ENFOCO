@@ -262,7 +262,7 @@ mark {
   font-weight: bold;
 }
 
-.article-text>h3 {
+.article-text>a>h3 {
   color: var(--article-title-font-color);
 
   font-size: 18px;

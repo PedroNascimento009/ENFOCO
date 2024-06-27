@@ -15,7 +15,7 @@ hr {
 
 /* Navbar Primary */
 
-.navbar-top {
+.menu {
   max-width: 1200px;
   /* proporção mais parecida com design(header) */
 
@@ -28,13 +28,15 @@ hr {
   gap: 10px;
 
   padding: 0px 20px;
+
+  list-style: none;
 }
 
-.nav-top-btn-buguer {
+.menu-btn-buguer {
   justify-self: start;
 }
 
-.nav-top-btn-buguer>a {
+.menu-btn-buguer>button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,19 +45,21 @@ hr {
   padding: 14px 12px;
 
   border-radius: 50%;
+  border: none;
+  cursor: pointer;
 }
 
-.nav-top-logo {
+.menu-logo {
   justify-self: center;
 }
 
-.nav-top-search {
+.menu-search {
   position: relative;
 
   justify-self: end;
 }
 
-.nav-top-search>form>input {
+.menu-search>form>input {
   background-color: var(--navbar-search-bg-color);
 
   padding: 14px 10px 12px 24px;
@@ -64,14 +68,14 @@ hr {
   border: none;
 }
 
-.nav-top-search>form>input::-webkit-search-cancel-button {
+.menu-search>form>input::-webkit-search-cancel-button {
   display: none;
 }
 
-.nav-top-search>form>button {
+.menu-search>form>button {
   position: absolute;
   right: 20px;
-  top: 15px;
+  top: 10px;
 
   border: none;
   background-color: transparent;
@@ -79,7 +83,7 @@ hr {
   cursor: pointer;
 }
 
-.nav-top-search-form>img {
+.menu-search-form>img {
   width: 18px;
   height: 18px;
 }

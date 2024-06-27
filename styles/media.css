@@ -61,30 +61,30 @@
   }
 
   /* Main */
-  .navbar-top {
+  .menu {
     grid-template-areas:
       "logo logo burguer"
       "search search search";
   }
 
-  .nav-top-logo {
+  .menu-logo {
     justify-self: start;
 
     grid-area: logo;
   }
 
-  .nav-top-logo>img {
+  .menu-logo>img {
     width: 190px;
     height: 44px;
   }
 
-  .nav-top-btn-buguer {
+  .menu-btn-buguer {
     justify-self: end;
 
     grid-area: burguer;
   }
 
-  .nav-top-search {
+  .menu-search {
     grid-area: search;
 
     width: 100%;
@@ -93,7 +93,7 @@
     align-self: center;
   }
 
-  .nav-top-search>form>input {
+  .menu-search>form>input {
     width: 100%;
   }
 
