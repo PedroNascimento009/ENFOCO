@@ -14,14 +14,11 @@ main {
   max-width: 1332px;
 }
 
-.border {
-  background-color: #DDDDDD;
-}
-
 /* Icons */
 .side-icons {
   grid-area: icons;
-  width: 40px;/* tamanho que melhor se adaptou em relação ao desktop */
+  width: 40px;
+  /* tamanho que melhor se adaptou em relação ao desktop */
 
   display: flex;
   justify-content: start;
@@ -58,7 +55,7 @@ main {
   margin-left: 5px;
 
   border-radius: 50%;
-  background-color: #139933;
+  background-color: var(--play-button-bg-color);
 }
 
 .listen-icon>li>a>span {
@@ -79,7 +76,8 @@ main {
 .block-news {
   grid-area: block-news;
 
-  max-width: 864px;/* largura do article-main */
+  max-width: 864px;
+  /* largura do article-main */
   min-width: 320px;
 
   display: grid;
@@ -100,7 +98,7 @@ main {
 }
 
 .tags-area>a {
-  background-color: #E9E9E9;
+  background-color: var(--tags-bg-color);
   border-radius: 17px;
 
   padding: 4px 12px;
@@ -119,7 +117,8 @@ main {
   justify-content: center;
 
   height: auto;
-  max-width: 436px; /* seguindo a largura do design */
+  max-width: 436px;
+  /* seguindo a largura do design */
 }
 
 .follow {
@@ -145,10 +144,11 @@ main {
 }
 
 .article-nav-item {
-  background-color: #FFFF;
+  background-color: var(--main-bg-color);
   box-shadow: 1px 2px 7px #ACACAC;
   border-radius: 12px;
-  max-width: 420px; /* seguindo a largura do design */
+  max-width: 420px;
+  /* seguindo a largura do design */
   height: auto;
   padding-top: 12px;
 }
@@ -184,7 +184,7 @@ main {
   background-color: transparent;
 
   padding: 6px;
-  
+
   box-shadow: 1.5px -1.5px 0 1px #484848 inset;
   border: solid transparent;
   border-width: 0 0 1.5px 1.5px;
@@ -192,7 +192,7 @@ main {
   transform: rotate(45deg);
 }
 
-.next-button{
+.next-button {
   scale: -1;
 }
 

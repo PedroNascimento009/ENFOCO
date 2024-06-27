@@ -9,14 +9,15 @@ body ul {
 }
 
 hr {
-  background-color: #DDDDDD;
+  background-color: var(--border-color);
   opacity: 0.3;
 }
 
 /* Navbar Primary */
 
 .navbar-top {
-  max-width: 1200px;/* proporção mais parecida com design(header) */
+  max-width: 1200px;
+  /* proporção mais parecida com design(header) */
 
   margin: 0 auto;
 
@@ -37,7 +38,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: var(--burger-button-bg-color);
 
   padding: 14px 12px;
 
@@ -55,7 +56,7 @@ hr {
 }
 
 .nav-top-search>form>input {
-  background-color: #e9e9e9;
+  background-color: var(--navbar-search-bg-color);
 
   padding: 14px 10px 12px 24px;
 
@@ -90,7 +91,8 @@ hr {
   align-items: center;
   row-gap: 5px;
 
-  max-width: 1200px;/* proporção do header */
+  max-width: 1200px;
+  /* proporção do header */
   height: 55px;
 
   margin: 0 auto;
@@ -115,56 +117,57 @@ hr {
 .option:hover,
 .option:focus {
   padding: 5px 15px;
-  color: #ffff;
+  color: var(--highlight-font-color);
 }
 
 .option-green:hover {
-  background-color: #1D8108;
+  background-color: var(--navbar-bg-green);
 }
 
 .option-gray:hover {
-  background-color: #1D4D58;
+  background-color: var(--navbar-bg-gray);
 }
 
 .option-red:hover {
-  background-color: #AD0202;
+  background-color: var(--navbar-bg-red);
 }
 
 .option-brown:hover {
-  background-color: #6E3404;
+  background-color: var(--navbar-bg-brown);
 }
 
 .option-cyan:hover {
-  background-color: #047885;
+  background-color: var(--navbar-bg-cyan);
 }
 
 .option-mossgreen:hover {
-  background-color: #2A6F48;
+  background-color: var(--navbar-bg-mossgreen);
 }
 
 .option-purple:hover {
-  background-color: #9B28B8;
+  background-color: var(--navbar-bg-purple);
 }
 
 .option-darkpurple:hover {
-  background-color: #513373;
+  background-color: var(--navbar-bg-darkpurple);
 }
 
 .option-orange:hover {
-  background-color: #BD5B07;
+  background-color: var(--navbar-bg-orange);
 }
 
 .option-gray2:hover {
-  background-color: #193B4F;
+  background-color: var(--navbar-bg-gray2);
 }
 
 /* Article Highlights */
 .highlights {
-  max-width: 1200px;/* proporção do header */
+  max-width: 1200px;
+  /* proporção do header */
   padding-left: 20px;
 
   margin: 10px auto;
-  
+
   height: 75px;
 
   display: grid;
