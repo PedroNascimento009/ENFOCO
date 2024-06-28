@@ -397,7 +397,7 @@
     font-size: 12px !important;
   }
 
-  .article-nav-item>div>a>h4 {
+  .article-nav-item>section>a>h4 {
     font-size: 16px !important;
   }
 }

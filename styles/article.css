@@ -76,6 +76,7 @@ mark {
 
 .iframe-ytb>iframe {
   border-radius: 12px;
+  border: none;
 }
 
 .poll {

@@ -84,10 +84,11 @@ body {
   font-size: 16px;
 }
 
-.highlight-article>span {
+.highlight-article>h2 {
   color: var(--main-title-font-color);
 
   font-size: 16px;
+  font-weight: 500;
 }
 
 /* Main */
@@ -203,7 +204,7 @@ mark {
   font-size: 14px;
 }
 
-.article-nav-item>div>a>h4 {
+.article-nav-item>section>a>h4 {
   color: var(--secondary-title-font-color);
 
   font-size: 18px;
