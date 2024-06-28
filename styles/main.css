@@ -157,20 +157,20 @@ main {
   margin: 0px 20px;
 }
 
-.article-nav-item>section>a {
+.article-nav-item>article>a {
   text-decoration: none;
 }
 
-.article-nav-item>section {
+.article-nav-item>article {
   display: flex;
   align-items: center;
 }
 
-.previous-article>section {
+.previous-article>article {
   flex-direction: row-reverse;
 }
 
-.article-nav-item>section>a:first-child {
+.article-nav-item>article>a:first-child {
   padding: 12px 20px;
 }
 
@@ -220,7 +220,5 @@ main {
 }
 
 .related-text>a {
-  margin: 10px 0px;
-
   text-decoration: none;
 }

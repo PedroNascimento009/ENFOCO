@@ -204,7 +204,7 @@ mark {
   font-size: 14px;
 }
 
-.article-nav-item>section>a>h4 {
+.article-nav-item>article>a>h4 {
   color: var(--secondary-title-font-color);
 
   font-size: 18px;
@@ -222,14 +222,14 @@ mark {
   color: var(--tertiary-title-font-color);
 }
 
-.related-text>a {
+.related-text>a:first-child {
   color: var(--tertiary-title-font-color);
 
   font-size: 18px;
   font-weight: bold;
 }
 
-.related-text>h4 {
+.related-text>a>h4 {
   color: var(--main-title-font-color);
 
   font-weight: 500;
