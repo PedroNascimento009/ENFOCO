@@ -6,7 +6,7 @@ Caso haja algum erro, fiquei grato ao reportar.
 
 ## Atualizações
 
-Foi removidos as âncoras dos artigos do aside-mobile.
+imagens melhoradas, e ajustes no html sobre o W3C.
 
 ## Autor e Deploy
 
