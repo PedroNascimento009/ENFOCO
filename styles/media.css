@@ -328,7 +328,7 @@
   }
 
   /* Footer */
-  .layout-footer {
+  .footer-contents {
     grid-template-rows: 200px 1fr;
     grid-template-columns: 1fr;
   }

@@ -2,7 +2,7 @@ main {
   padding-top: 18px;
 }
 
-.layout-main {
+.main-contents {
   display: grid;
   grid-template-areas:
     "icons category aside"
@@ -86,7 +86,7 @@ main {
   margin: 30px 0px;
 }
 
-.layout-news {
+.news-contents {
   display: grid;
   gap: 30px;
 }

@@ -229,7 +229,7 @@ mark {
   font-weight: bold;
 }
 
-.related-text>a>h4 {
+.related-text>a>h3 {
   color: var(--main-title-font-color);
 
   font-weight: 500;
